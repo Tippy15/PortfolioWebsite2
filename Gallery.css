@@ -1,0 +1,309 @@
+html{
+    background-color: #141414;
+    margin: 1;
+}
+
+body {
+    margin: 1 auto;
+    overflow-x: hidden;
+}
+
+nav{
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    left: 600px;
+    font-size: 50pt;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#141414;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Megrim", serif;
+    font-weight: 400;
+    font-style: large;
+    }
+
+    .HeaderLine{
+        position: absolute;
+        top: 100px;
+        left: -20px;
+        max-width: 120%;
+        max-height: 80%;
+    }
+
+    .ProjectSquare1{
+        position: absolute;
+        top: 280px;
+        left: 370px;
+        max-width: 60%;
+    }
+
+    .ProjectSquare2{
+        position: absolute;
+        top: 1280px;
+        left: 370px;
+        max-width: 60%;
+    }
+
+    .ProjectSquare3{
+        position: absolute;
+        top: 2280px;
+        left: 370px;
+        max-width: 60%;
+    }
+
+    .ProjectSquare4{
+        position: absolute;
+        top: 3280px;
+        left: 370px;
+        max-width: 60%;
+    }
+
+    .Tickets{
+        position: absolute;
+        top: 330px;
+        left: 430px;
+        max-width: 60%;
+        max-height: 60%;
+        transition: transform .2s;
+    }
+
+    .Tickets:hover{
+        transform: scale(1.1);
+    }
+
+    .Pictogram{
+        position: absolute;
+        top: 330px;
+        left: 1120px;
+        max-width: 28%;
+        max-height: 28%;
+    }
+
+    .Patterns{
+        position: absolute;
+        top: 630px;
+        left: 1180px;
+        max-width: 29%;
+        max-height: 29%;
+    }
+
+    .WordsGif{
+        position: absolute;
+        top: 1350px;
+        left: 460px;
+        height: auto;
+        width: 30%;
+        transition: transform .2s;
+    }
+
+    .WordsGif:hover{
+        transform: scale(1.1);
+    }
+
+    .Release{
+        position: absolute;
+        top: 1350px;
+        left: 1080px;
+        width: 15%;
+        height: auto;
+    }
+
+    .Catch{
+        position: absolute;
+        top: 1650px;
+        left: 1170px;
+        width: 14.5%;
+        height: auto;
+    }
+
+    .Waves{
+        position: absolute;
+        top: 2400px;
+        left: 450px;
+        width: 23%;
+        height: auto;
+        transition: transform .2s;
+    }
+
+    .Waves:hover{
+        transform: scale(1.2)
+    }
+
+    .WavesGlitch{
+        position: absolute;
+        top: 2400px;
+        left: 1000px;
+        width: 23%;
+        height: auto;
+        transition: transform .2s;
+    }
+
+    .WavesGlitch:hover{
+        transform: scale(1.2);
+    }
+
+    .ShowBanner{
+        position: absolute;
+        top: 3330px;
+        left: 460px;
+        width: 50%;
+        transition: transform .2s;
+    }
+
+    .ShowBanner:hover{
+        transform: scale(1.1);
+    }
+
+    .ShowTitleSequence1{
+        position: absolute;
+        top: 3900px;
+        left: 460px;
+        width: 23%;
+    }
+
+    .ShowTitleSequence2{
+        position: absolute;
+        top: 3900px;
+        left: 975px;
+        width: 23%;
+    }
+
+    .OlympicParagraph h1{
+        position: absolute;
+        color: white;
+        top: 920px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .OlympicParagraph h2{
+        position: absolute;
+        color: white;
+        top: 965px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .OlympicParagraph p{
+        position: absolute;
+        color: white;
+        top: 1010px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .ExpressiveParagraph h1{
+        position: absolute;
+        color: white;
+        top: 1920px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .ExpressiveParagraph h2{
+        position: absolute;
+        color: white;
+        top: 1965px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .ExpressiveParagraph p{
+        position: absolute;
+        color: white;
+        top: 2010px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .WavesParagraph h1{
+        position: absolute;
+        color: white;
+        top: 2890px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .WavesParagraph h2{
+        position: absolute;
+        color: white;
+        top: 2935px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .WavesParagraph p{
+        position: absolute;
+        color: white;
+        top: 2980px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .NetflixParagraph h1{
+        position: absolute;
+        color: white;
+        top: 4150px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .NetflixParagraph h2{
+        position: absolute;
+        color: white;
+        top: 4195px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    .NetflixParagraph p{
+        position: absolute;
+        color: white;
+        top: 4240px;
+        left: 400px;
+        font-family: "Mina", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
